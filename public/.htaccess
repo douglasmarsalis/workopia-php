@@ -1,0 +1,6 @@
+<!--Setting the document root for Laragon / Apache (This is not needed at this time)-->
+<!-- RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php [NC,L,QSA] -->
+
