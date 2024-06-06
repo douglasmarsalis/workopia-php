@@ -4,6 +4,10 @@ require '../helpers.php';
 // inspect($uri);
 // inspect($method);
 
+require basePath('Database.php');
+$config = require basePath('config/db.php');
+$db = new Database($config);
+
 require basePath('Router.php');
 
 $router = new Router();
